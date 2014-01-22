@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="plugin" group="system" method="upgrade">
+	<name>plg_system_emailtemplate</name>
+	<author>Mark Boland</author>
+	<creationDate>1/21/2014</creationDate>
+	<copyright>(C) 2014 Boland Werbung. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>mark.boland@boland.de</authorEmail>
+	<authorUrl>www.boland.de</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_EMAILTEMPLATE_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="emailtemplate">emailtemplate.php</filename>
+		<filename>emailtemplate.xml</filename>
+		<filename>config.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>libraries</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_emailtemplate.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_emailtemplate.sys.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_system_emailtemplate.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_system_emailtemplate.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="Basic">
+				<field name="mailSubject" type="text" disabled="true"
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_SUBJECT" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_SUBJECT_DESCRIPTION" />
+				<field name="mailHeaderImage" type="media" 
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_IMAGE" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_IMAGE_DESCRIPTION" />
+				<field name="mailHeaderText" type="editor" filter="safehtml" width="300" height="100"
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_TEXT" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_TEXT_DESCRIPTION" />
+				<field name="mailFooterText" type="editor" filter="safehtml" width="300" height="100"
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_TEXT" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_TEXT_DESCRIPTION" />
+				<field name="mailFooterImage" type="media" 
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_IMAGE" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_IMAGE_DESCRIPTION" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
