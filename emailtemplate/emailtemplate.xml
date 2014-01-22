@@ -27,15 +27,22 @@
 		<fields name="params">
 			<fieldset name="Basic">
 				<field name="mailSubject" type="text" disabled="true"
-					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_SUBJECT" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_SUBJECT_DESCRIPTION" />
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_SUBJECT" 
+					description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_SUBJECT_DESCRIPTION" />
 				<field name="mailHeaderImage" type="media" 
-					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_IMAGE" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_IMAGE_DESCRIPTION" />
-				<field name="mailHeaderText" type="editor" filter="safehtml" width="300" height="100"
-					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_TEXT" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_TEXT_DESCRIPTION" />
-				<field name="mailFooterText" type="editor" filter="safehtml" width="300" height="100"
-					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_TEXT" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_TEXT_DESCRIPTION" />
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_IMAGE" 
+					description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_IMAGE_DESCRIPTION" />
+				<field name="mailHeaderText" type="editor" filter="safehtml" 
+					width="300" height="100"
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_TEXT" 
+					description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_HEADER_TEXT_DESCRIPTION" />
+				<field name="mailFooterText" type="editor" filter="safehtml" 
+					width="300" height="100"
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_TEXT" 
+					description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_TEXT_DESCRIPTION" />
 				<field name="mailFooterImage" type="media" 
-					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_IMAGE" description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_IMAGE_DESCRIPTION" />
+					label="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_IMAGE" 
+					description="PLG_SYSTEM_EMAILTEMPLATE_MAIL_FOOTER_IMAGE_DESCRIPTION" />
 			</fieldset>
 		</fields>
 	</config>
